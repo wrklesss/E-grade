@@ -1,0 +1,80 @@
+.container main {
+	width: 100%;
+}
+
+.container {
+	width: 97%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: left;
+}
+
+.filter-container {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.filter-button {
+	background-color: #3c4b64;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.filter-container button {
+	background-color: #3c4b64;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+thead th {
+	background-color: #3c4b64;
+	color: white;
+	padding: 10px;
+	text-align: left;
+}
+
+tbody td {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.actions-row {
+	text-align: left;
+	padding-top: 10px;
+}
+
+main button {
+	margin-right: 10px;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.add-button {
+	background-color: #3c4b64;
+	color: white;
+}
+
+.delete-button {
+	background-color: #d9534f;
+	color: white;
+}

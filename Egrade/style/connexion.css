@@ -1,0 +1,232 @@
+main {
+	height: 93.1793737vh;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: column;
+	margin: 2rem 3rem;
+}
+
+main .change-profil {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	padding-right: 5rem;
+	margin-top: 6rem;
+	position: relative;
+	/* margin-bottom: auto; */
+}
+
+.change-profil button {
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-size: 1rem;
+	gap: 0.5rem;
+	padding: 0.5rem 1rem;
+	border-radius: 0.7rem;
+	box-shadow: 0 0 1rem 0.4rem rgba(0, 0, 0, 0.1);
+	font-weight: bold;
+	color: blue;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50rem;
+	height: 30rem;
+	margin: auto;
+	padding: 2rem 2rem;
+	position: relative;
+	background-color: white;
+	box-shadow: 0 0 1rem 0.4rem rgba(0, 0, 0, 0.1);
+	border-radius: 0.5rem;
+}
+
+.form-container .title {
+	margin-bottom: auto;
+	font-size: 1.5rem;
+}
+
+.form-container .form-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 2rem;
+	position: relative;
+	gap: 3rem;
+}
+
+.identifiant-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: left;
+	gap: 0.5rem;
+}
+
+.identifiant-label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+}
+
+.identifiant-label a {
+	color: blue;
+	text-decoration: none;
+}
+
+.identifiant-container input {
+	width: 100%;
+	height: 2rem;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border: 1px solid #ccc;
+	background-color: #ccc;
+}
+
+.identifiant-container input:focus {
+	outline: none;
+}
+
+.identifiant-label label {
+	font-size: 1.2rem;
+	/* font-weight: bold; */
+}
+
+.identifiant-input-container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 0.5rem;
+}
+
+.identifiant-input-container i {
+	font-size: 1.5rem;
+	color: blue;
+}
+
+.password-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: left;
+	gap: 0.5rem;
+}
+
+.password-label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+}
+
+.password-label a {
+	color: blue;
+	text-decoration: none;
+}
+
+.password-input-container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 0.5rem;
+}
+
+.password-input-container i {
+	font-size: 1.5rem;
+	color: blue;
+}
+.password-input input {
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border: none;
+	background-color: #ccc;
+}
+
+.password-input input:focus {
+	outline: none;
+}
+
+.password-input {
+	width: 100%;
+	height: 2rem;
+	border: 1px solid #ccc;
+	background-color: #ccc;
+	display: flex;
+	padding-right: 0.3rem;
+}
+
+.password-input button {
+	background-color: #ccc;
+	border: none;
+}
+
+.password-input button i {
+	font-size: 0.8rem;
+	color: rgb(0, 0, 0);
+}
+
+.submit-container {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	width: 92%;
+}
+
+.submit-container button {
+	width: 10rem;
+	height: 3rem;
+	font-size: 1rem;
+	font-weight: 700;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	background-color: blue;
+	color: white;
+	box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.submit-container button:hover {
+	box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.submit-container button:active {
+	filter: drop-shadow(0 0 1rem rgba(6, 40, 231, 0.74));
+	transform: scale(0.98);
+}
+
+.form-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 1rem;
+}
+
+.form-footer p {
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.form-footer a {
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}

@@ -1,0 +1,15 @@
+/* style generaux des pages */
+@font-face {
+	font-family: "Marianne";
+	src: url(../fontes/Marianne-ExtraBold.woff);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Marianne" !important;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="stylesheet" href="style/index.css" />
+		<title>Egrade</title>
+	</head>
+	<body>
+		<main>
+			<div class="title-select">
+				<h1>Je selectionne mon profil :</h1>
+			</div>
+
+			<div class="main-container">
+				<section>
+					<h3>Vous êtes Etudiant</h3>
+					<img src="img/profil-icon/etudiant.png" alt="" />
+					<button
+						class="connection-btn"
+						id="etud"
+						name="etud"
+						onclick="window.location.href = 'connexion.html';"
+					>
+						Se connecter
+					</button>
+				</section>
+				<section>
+					<h3>Vous êtes Enseignant</h3>
+					<img src="img/profil-icon/professeur.png" alt="" />
+					<button
+						class="connection-btn"
+						id="prof"
+						name="prof"
+						onclick="window.location.href = 'connexion-prof.html';"
+					>
+						Se connecter
+					</button>
+				</section>
+				<section>
+					<h3>Vous êtes Administrateur</h3>
+					<img src="img/profil-icon/administration.png" alt="" />
+					<button
+						class="connection-btn"
+						id="admin"
+						name="admin"
+						onclick="window.location.href = 'connection-admin.html';"
+					>
+						Se connecter
+					</button>
+				</section>
+			</div>
+		</main>
+		<script src="script/co.js"></script>
+	</body>
+</html>
